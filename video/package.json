@@ -1,0 +1,12 @@
+{
+  "name": "sekura-defender-submission-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node tools/render.mjs",
+    "preview": "node tools/serve.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

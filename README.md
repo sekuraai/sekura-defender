@@ -9,6 +9,7 @@ Headline: the recon planner goes **0.600 → 1.000** with **zero-coverage 20% �
 coverage rule sets it never trained on — a real production bug driven to zero.
 
 Full write-up, methodology and limitations: **[SUBMISSION.md](SUBMISSION.md)**
+Submission video (106 s, built in code with anime.js): **[`video/`](video/)**
 
 ---
 
@@ -133,6 +134,7 @@ turned a 94-step run into 252 steps and tripled the bill.
 | `sekura_defender/` | river.ai harness (the surface originally targeted) |
 | `scripts/` | pipeline entry points |
 | `results/` | the eval reports behind the table above |
+| `video/` | the 106-second submission video, rendered from an anime.js timeline |
 
 ## Three things this build learned the hard way
 

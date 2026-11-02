@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sekura Defender — submission</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="stage">
+    <section class="scene" id="s0"></section>
+    <section class="scene dark dots" id="s1"></section>
+    <section class="scene dark dots" id="s2"></section>
+    <section class="scene dark dots" id="s3"></section>
+    <section class="scene dark dots" id="s4"></section>
+    <section class="scene dark" id="s5"></section>
+    <section class="scene dark dots" id="s6"></section>
+    <section class="scene dark dots" id="s7"></section>
+    <section class="scene" id="s8"></section>
+    <div id="vignette"></div>
+  </div>
+  <div id="controls">
+    <button id="play">&#9654;</button>
+    <span id="clock">0:00.0</span>
+    <input id="scrub" type="range" min="0" max="106000" step="33" value="0">
+    <span id="jumps"></span>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
