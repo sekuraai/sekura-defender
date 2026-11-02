@@ -2,3 +2,5 @@ node_modules/
 out/
 audio/cues.json
 install.log
+
+# The rendered deliverable is committed; out/ stays ignored as render scratch.

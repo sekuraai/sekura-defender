@@ -5,7 +5,8 @@ headless Chromium and piped to ffmpeg. No screen recording, no editor — every 
 is read from `src/content.js`, which is transcribed from `data/fireworks/report-*.json`, so the
 video cannot drift from the results.
 
-**Output:** `out/sekura-defender-submission-final.mp4` (1920×1080, 30 fps, H.264, 106.0 s).
+**The video itself is committed here: [`sekura-defender-submission.mp4`](sekura-defender-submission.mp4)**
+(1920×1080, 30 fps, H.264, 106.0 s, 6.7 MB). Re-rendering writes to `out/`, which is ignored.
 
 ```bash
 npm install && npx playwright install chromium
