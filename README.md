@@ -9,7 +9,7 @@ Headline: the recon planner goes **0.600 → 1.000** with **zero-coverage 20% �
 coverage rule sets it never trained on — a real production bug driven to zero.
 
 Full write-up, methodology and limitations: **[SUBMISSION.md](SUBMISSION.md)**
-Submission video (106 s, built in code with anime.js): **[`video/sekura-defender-submission.mp4`](video/sekura-defender-submission.mp4)** · [source](video/)
+Submission video (106 s, built in code with anime.js): **[MP4](video/sekura-defender-submission.mp4)** · [WebM](video/sekura-defender-submission.webm) for systems without an H.264 decoder · [source](video/)
 
 ---
 

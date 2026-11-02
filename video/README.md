@@ -5,8 +5,15 @@ headless Chromium and piped to ffmpeg. No screen recording, no editor — every 
 is read from `src/content.js`, which is transcribed from `data/fireworks/report-*.json`, so the
 video cannot drift from the results.
 
-**The video itself is committed here: [`sekura-defender-submission.mp4`](sekura-defender-submission.mp4)**
-(1920×1080, 30 fps, H.264, 106.0 s, 6.7 MB). Re-rendering writes to `out/`, which is ignored.
+**The video is committed here, in two encodings of the same 106 seconds:**
+
+| file | codec | size | use |
+|---|---|---|---|
+| [`sekura-defender-submission.mp4`](sekura-defender-submission.mp4) | H.264 High / AAC-LC | 6.7 MB | **the submission file** — what browsers, phones and upload pipelines expect |
+| [`sekura-defender-submission.webm`](sekura-defender-submission.webm) | VP9 / Opus | 3.7 MB | playback convenience on distros that ship no H.264 decoder (Fedora, openSUSE) |
+
+Both are 1920×1080, 30 fps, 106.0 s, rendered from the same timeline. Re-rendering writes to
+`out/`, which is ignored.
 
 ```bash
 npm install && npx playwright install chromium
