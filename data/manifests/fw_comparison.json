@@ -1,0 +1,152 @@
+{
+  "base": {
+    "attacktree": {
+      "n": 20,
+      "mean_score": 0.2546,
+      "exact": 0.15
+    },
+    "attacktree_repair": {
+      "n": 20,
+      "mean_score": 0.0833,
+      "exact": 0.0
+    },
+    "classify_category": {
+      "n": 20,
+      "mean_score": 0.45,
+      "exact": 0.45
+    },
+    "classify_cwe": {
+      "n": 20,
+      "mean_score": 0.6,
+      "exact": 0.6
+    },
+    "cvss": {
+      "n": 20,
+      "mean_score": 0.35,
+      "exact": 0.4
+    },
+    "detection": {
+      "n": 20,
+      "mean_score": 0.8392,
+      "exact": 0.15
+    },
+    "grounded_qa": {
+      "n": 20,
+      "mean_score": 0.8093,
+      "exact": 0.0
+    },
+    "mapping": {
+      "n": 13,
+      "mean_score": 0.2083,
+      "exact": 0.1538
+    },
+    "planner": {
+      "n": 20,
+      "mean_score": 0.6,
+      "exact": 0.6,
+      "zero_coverage_rate": 0.2
+    },
+    "remediation": {
+      "n": 20,
+      "mean_score": 0.3029,
+      "exact": 0.15
+    },
+    "safety": {
+      "n": 5,
+      "mean_score": 0.8064,
+      "exact": 0.0
+    },
+    "threat_model": {
+      "n": 20,
+      "mean_score": 0.8265,
+      "exact": 0.0
+    },
+    "triage": {
+      "n": 20,
+      "mean_score": 0.1287,
+      "exact": 0.05,
+      "reason_exact_rate": 0.05,
+      "dangerous_rate": 0.0
+    },
+    "_overall": {
+      "n": 238,
+      "mean_score": 0.469,
+      "tasks": 13
+    }
+  },
+  "tuned": {
+    "attacktree": {
+      "n": 20,
+      "mean_score": 0.594,
+      "exact": 0.15
+    },
+    "attacktree_repair": {
+      "n": 20,
+      "mean_score": 0.8167,
+      "exact": 0.45
+    },
+    "classify_category": {
+      "n": 20,
+      "mean_score": 0.35,
+      "exact": 0.35
+    },
+    "classify_cwe": {
+      "n": 20,
+      "mean_score": 0.6,
+      "exact": 0.6
+    },
+    "cvss": {
+      "n": 20,
+      "mean_score": 0.4,
+      "exact": 0.4
+    },
+    "detection": {
+      "n": 20,
+      "mean_score": 0.8694,
+      "exact": 0.15
+    },
+    "grounded_qa": {
+      "n": 20,
+      "mean_score": 0.8412,
+      "exact": 0.0
+    },
+    "mapping": {
+      "n": 13,
+      "mean_score": 0.5513,
+      "exact": 0.4615
+    },
+    "planner": {
+      "n": 20,
+      "mean_score": 1.0,
+      "exact": 1.0,
+      "zero_coverage_rate": 0.0
+    },
+    "remediation": {
+      "n": 20,
+      "mean_score": 0.4069,
+      "exact": 0.2
+    },
+    "safety": {
+      "n": 5,
+      "mean_score": 0.8082,
+      "exact": 0.0
+    },
+    "threat_model": {
+      "n": 20,
+      "mean_score": 0.8874,
+      "exact": 0.0
+    },
+    "triage": {
+      "n": 20,
+      "mean_score": 0.5914,
+      "exact": 0.3,
+      "reason_exact_rate": 0.25,
+      "dangerous_rate": 0.05
+    },
+    "_overall": {
+      "n": 238,
+      "mean_score": 0.6653,
+      "tasks": 13
+    }
+  }
+}

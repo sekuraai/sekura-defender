@@ -1,0 +1,47 @@
+{
+  "train": {
+    "split": "train",
+    "records": 14172,
+    "skipped": 0,
+    "bytes": 86972626,
+    "approx_tokens": 21696432,
+    "path": "/Volumes/IMacExtend/projects/sekura-kb/sekura-sft/data/fireworks/train.jsonl"
+  },
+  "val": {
+    "split": "val",
+    "records": 724,
+    "skipped": 0,
+    "bytes": 4037287,
+    "approx_tokens": 1007473,
+    "path": "/Volumes/IMacExtend/projects/sekura-kb/sekura-sft/data/fireworks/eval.jsonl"
+  },
+  "test": {
+    "split": "test",
+    "records": 1044,
+    "skipped": 0,
+    "bytes": 6261823,
+    "approx_tokens": 1562202,
+    "path": "/Volumes/IMacExtend/projects/sekura-kb/sekura-sft/data/fireworks/test.jsonl"
+  },
+  "fast": {
+    "records": 2494,
+    "bytes": 14436374,
+    "approx_tokens": 3601308,
+    "path": "/Volumes/IMacExtend/projects/sekura-kb/sekura-sft/data/fireworks/train-fast-2500.jsonl",
+    "tasks": {
+      "grounded_qa": 426,
+      "threat_model": 414,
+      "detection": 377,
+      "planner": 346,
+      "triage": 168,
+      "remediation": 158,
+      "classify_cwe": 118,
+      "attacktree_repair": 106,
+      "classify_category": 93,
+      "cvss": 91,
+      "safety": 83,
+      "mapping": 61,
+      "attacktree": 53
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "max_tier": "T3-reference",
+  "raw": 370231,
+  "kept": 160080,
+  "rejected": {
+    "legacy_schema_1_0": 9353,
+    "not_english": 8386,
+    "boilerplate": 1833,
+    "low_information": 49594,
+    "subject_restatement": 320,
+    "near_dup": 487,
+    "exact_dup": 3434,
+    "group_too_small": 1313,
+    "group_not_security": 681,
+    "doc_dropped": 134750
+  },
+  "reconciles": true,
+  "groups": 11403,
+  "by_tier": {
+    "T3-reference": 118718,
+    "T1-sharealike": 25659,
+    "T0-permissive": 9530,
+    "T2-internal": 6173
+  },
+  "by_type": {
+    "fact": 52002,
+    "procedure": 39195,
+    "concept": 26108,
+    "tool": 17907,
+    "vulnerability": 13604,
+    "relation": 11264
+  },
+  "by_source": {
+    "local-legacy-corpus": 118718,
+    "owasp-top10": 8775,
+    "owasp-cheatsheets": 6241,
+    "owasp-asvs": 5080,
+    "graph-sca-intel": 4292,
+    "owasp-wstg": 3460,
+    "nist-sp-800-53r5": 3346,
+    "payloadsallthethings": 2791,
+    "owasp-mastg": 2103,
+    "nist-sp-800-37r2": 1136,
+    "local-design-docs": 856,
+    "graph-pentest": 763,
+    "nist-sp-800-171r3": 625,
+    "nist-sp-800-30r1": 607,
+    "nist-sp-800-61r2": 510,
+    "nist-sp-800-115": 495,
+    "graph-pqc": 108,
+    "graph-kali": 85,
+    "graph-appsec": 60,
+    "graph-cwe-attack": 20,
+    "graph-network": 9
+  },
+  "claim_chars": 25027247,
+  "approx_claim_tokens": 6256811
+}

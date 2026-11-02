@@ -1,0 +1,150 @@
+{
+  "base_model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "teacher_snapshot": {
+    "lines": 9654,
+    "sha256": "cd1f7b8b94180c76a27037694c768141b4063e179a7da7968245ead6e1674cab"
+  },
+  "max_tier": "T3-reference",
+  "tier_order": [
+    "T0-permissive",
+    "T1-sharealike",
+    "T2-internal",
+    "T3-reference",
+    "DROP"
+  ],
+  "simhash_hamming": 10,
+  "generators": [
+    "attacktree",
+    "findings",
+    "recon",
+    "teacher",
+    "triage"
+  ],
+  "report": {
+    "total": 15940,
+    "by_split": {
+      "train": 14172,
+      "test": 1044,
+      "val": 724
+    },
+    "by_task": {
+      "attacktree_repair": 650,
+      "detection": 2666,
+      "remediation": 983,
+      "attacktree": 171,
+      "mapping": 205,
+      "triage": 1067,
+      "cvss": 440,
+      "classify_cwe": 655,
+      "classify_category": 468,
+      "planner": 2391,
+      "grounded_qa": 2985,
+      "threat_model": 2900,
+      "safety": 359
+    },
+    "by_source": {
+      "attacktree": 1052,
+      "triage": 1067,
+      "findings": 1776,
+      "recon": 2391,
+      "teacher": 9654
+    },
+    "by_tier": {
+      "T1-sharealike": 2183,
+      "T2-internal": 6469,
+      "T0-permissive": 467,
+      "T3-reference": 6821
+    },
+    "dropped_duplicate": 0,
+    "dropped_entity_straddle": 0,
+    "near_dup_rate": {
+      "attacktree": 0.024,
+      "attacktree_repair": 0.76,
+      "classify_category": 0.217,
+      "classify_cwe": 0.28,
+      "cvss": 1.0,
+      "detection": 0.658,
+      "grounded_qa": 0.629,
+      "mapping": 0.0,
+      "planner": 1.0,
+      "remediation": 0.431,
+      "safety": 0.0,
+      "threat_model": 0.62,
+      "triage": 0.357
+    },
+    "dropped_tier": 0
+  },
+  "shards": [
+    {
+      "name": "train/train-0000.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12824792,
+      "sha256": "ec53024ad82fe716bcac41a40ab957f7db509f33d19f0edf059e484aec260053"
+    },
+    {
+      "name": "train/train-0001.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12924100,
+      "sha256": "b789beb7b473fde481f1e796bc5971aa58cb42b32f2be7d8d83d44aae78d4657"
+    },
+    {
+      "name": "train/train-0002.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12915023,
+      "sha256": "76a4790195cd2e1beb18353cf86217c704a1d7eba783d2eddb7170124dcfa016"
+    },
+    {
+      "name": "train/train-0003.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12647176,
+      "sha256": "fdbf4677937536f5094665db9b3072dd79d410c12cc1da791bb5d4e8d3bff924"
+    },
+    {
+      "name": "train/train-0004.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12888032,
+      "sha256": "ab594e08e538b27f153fa181ff05d1d7e4cf780bd6029f906315668b41979dc6"
+    },
+    {
+      "name": "train/train-0005.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12843319,
+      "sha256": "8fcc32c70d85c2178d9b5ba333d785342461d9854587187f659a628bd36cc474"
+    },
+    {
+      "name": "train/train-0006.jsonl",
+      "split": "train",
+      "examples": 2000,
+      "bytes": 12740494,
+      "sha256": "4f967ba36b0db55846ddfb90e50e581d5d8afc8a6f77b5e559f2bb16860caf8d"
+    },
+    {
+      "name": "train/train-0007.jsonl",
+      "split": "train",
+      "examples": 172,
+      "bytes": 1130124,
+      "sha256": "6ae75bd511511b4c15207b2f12ef285428a352b8829260e229dab1cce766595e"
+    },
+    {
+      "name": "val/val-0000.jsonl",
+      "split": "val",
+      "examples": 724,
+      "bytes": 4239032,
+      "sha256": "17f6598c923c3ab7553e4de7e3fb3519942cae6f69a8a9e11187fe925c5615b1"
+    },
+    {
+      "name": "test/test-0000.jsonl",
+      "split": "test",
+      "examples": 1044,
+      "bytes": 6574781,
+      "sha256": "264536ba4100122c241286f54697e95bad865825c866ac7c3f94f7d1709d9a1d"
+    }
+  ],
+  "corpus_sha256": "c2dde748b8e6ef9bea3a2c8c2a570dd53c578b72d19a675f27676ac256b4e1c8"
+}

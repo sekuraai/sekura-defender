@@ -1,0 +1,39 @@
+{
+  "bundles": 16503,
+  "claims_total": 146744,
+  "claims_p10": 6,
+  "claims_p50": 10,
+  "claims_p90": 10,
+  "tokens_p10": 268,
+  "tokens_p50": 452,
+  "tokens_p90": 611,
+  "tokens_max": 1754,
+  "by_tier": {
+    "T3-reference": 13002,
+    "T1-sharealike": 2319,
+    "T0-permissive": 604,
+    "T2-internal": 578
+  },
+  "by_source": {
+    "local-legacy-corpus": 13002,
+    "owasp-top10": 816,
+    "owasp-cheatsheets": 668,
+    "owasp-wstg": 384,
+    "graph-sca-intel": 364,
+    "payloadsallthethings": 302,
+    "owasp-asvs": 238,
+    "owasp-mastg": 213,
+    "nist-sp-800-53r5": 113,
+    "local-design-docs": 103,
+    "graph-pentest": 89,
+    "nist-sp-800-37r2": 54,
+    "nist-sp-800-61r2": 38,
+    "nist-sp-800-115": 35,
+    "nist-sp-800-30r1": 33,
+    "nist-sp-800-171r3": 29,
+    "graph-kali": 10,
+    "graph-pqc": 7,
+    "graph-appsec": 4,
+    "graph-network": 1
+  }
+}

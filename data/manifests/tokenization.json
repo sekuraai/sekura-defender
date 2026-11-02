@@ -1,0 +1,43 @@
+{
+  "base_model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "splits": {
+    "train": {
+      "examples": 14172,
+      "skipped": 0,
+      "billed_tokens": 20127044,
+      "supervised_tokens": 11418534,
+      "len_p50": 1556,
+      "len_p90": 2127,
+      "len_max": 5734,
+      "steps_per_epoch": 124,
+      "supervised_budget_per_step": 95154,
+      "skipped_by_task": {}
+    },
+    "val": {
+      "examples": 724,
+      "skipped": 0,
+      "billed_tokens": 970520,
+      "supervised_tokens": 449537,
+      "len_p50": 1528,
+      "len_p90": 2168,
+      "len_max": 4014,
+      "steps_per_epoch": 0,
+      "supervised_budget_per_step": 4096,
+      "skipped_by_task": {}
+    },
+    "test": {
+      "examples": 1044,
+      "skipped": 0,
+      "billed_tokens": 1422913,
+      "supervised_tokens": 771533,
+      "len_p50": 1547,
+      "len_p90": 2079,
+      "len_max": 2904,
+      "steps_per_epoch": 0,
+      "supervised_budget_per_step": 6429,
+      "skipped_by_task": {}
+    }
+  },
+  "price_per_1m": 1.0,
+  "cost_2_epochs_usd": 40.25
+}
